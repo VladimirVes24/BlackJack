@@ -24,5 +24,7 @@ int main()
             std::cout << "Incorrect input!";
         }
 	}
+    delete game;
+    return 0;
 }
 
